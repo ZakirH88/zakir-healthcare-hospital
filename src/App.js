@@ -11,6 +11,7 @@ import Register from './components/Register/Register';
 import Login from './components/Login/Login';
 
 import initializeAuthentication from './Firebase/firebase.initialize';
+import NotFound from './components/NotFound/NotFound';
 initializeAuthentication();
 function App() {
   return (
@@ -40,8 +41,11 @@ function App() {
             <Route path="/medicinespecialist">
               <MedicineSpecialist></MedicineSpecialist>
             </Route>
-            
 
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
+          
           </Switch>
           <Footer></Footer>
        </BrowserRouter>
