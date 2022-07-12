@@ -1,0 +1,17 @@
+[
+	{
+		"id": 1,
+		"img": "./images/htmlcss.png",
+		"CourseName": "Learn HTML5 & CSS3",
+		"CourseDuration": " 3 Months",
+		"CourseFee": "599 Tk"
+	  },
+
+	  {
+		"id": 1,
+		"img": "./images/htmlcss.png",
+		"CourseName": "Learn HTML5 & CSS3",
+		"CourseDuration": " 3 Months",
+		"CourseFee": "599 Tk"
+	  },
+]
